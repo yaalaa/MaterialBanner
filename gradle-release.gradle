@@ -1,5 +1,5 @@
-apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'com.jfrog.bintray'
+// apply plugin: 'com.github.dcendents.android-maven'
+// apply plugin: 'com.jfrog.bintray'
 
 group = POM_GROUP_ID
 version = project.release.versionName
