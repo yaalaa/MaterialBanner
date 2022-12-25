@@ -24,4 +24,4 @@ dependencies {
     implementation "com.google.android.material:material:${versions.material}"
 }
 
-// apply from: '../gradle-release.gradle'
+apply from: '../gradle-release.gradle'
