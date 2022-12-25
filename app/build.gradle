@@ -8,8 +8,8 @@ android {
         applicationId "com.sergivonavi.materialbanner.app"
         minSdkVersion setup.minSdk
         targetSdkVersion setup.targetSdk
-        versionCode release.appVersionCode
-        versionName release.appVersionName
+        // versionCode release.appVersionCode
+        // versionName release.appVersionName
         vectorDrawables.useSupportLibrary = true
 
         resValue "string", "materialbanner_app_version", "${versionName}"
@@ -19,7 +19,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 
-            signingConfig signingConfigs.release
+            // signingConfig signingConfigs.release
         }
     }
     lintOptions {
